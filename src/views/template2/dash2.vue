@@ -10,40 +10,10 @@
     <div class="flex h-full max-h-screen flex-col gap-2">
       <div class="flex h-[60px] items-center border-b px-6">
         <a class="flex items-center gap-2 font-semibold" href="#">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="h-6 w-6"
-          >
-            <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"></path>
-            <path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"></path>
-            <path d="M12 3v6"></path>
-          </svg>
-          <span class="">Acme Admin</span>
+          <img src="@/assets/images/R2A_WB.png" class="w-36 object-cover " alt="">
         </a>
         <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground ml-auto h-8 w-8">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="h-4 w-4"
-          >
-            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path>
-            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path>
-          </svg>
+          <span class="text-white">-</span>
           <span class="sr-only">Toggle notifications</span>
         </button>
       </div>
@@ -68,7 +38,7 @@
               <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
               <polyline points="9 22 9 12 15 12 15 22"></polyline>
             </svg>
-            Overview
+            Home
           </a>
           <a
             class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-400 transition-all hover:text-gray-50 dark:text-gray-400 dark:hover:text-gray-50"
@@ -174,8 +144,8 @@
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6 pb-4">
-            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Total Users</h3>
-            <p class="text-sm text-muted-foreground">The total number of registered users.</p>
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Total Calls</h3>
+            <!-- <p class="text-sm text-muted-foreground">The total number of registered users.</p> -->
           </div>
           <div class="p-6">
             <div class="text-4xl font-bold">1,234</div>
@@ -183,8 +153,8 @@
         </div>
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6 pb-4">
-            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">New Users</h3>
-            <p class="text-sm text-muted-foreground">The number of new users in the last 30 days.</p>
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Total Tenants</h3>
+            <!-- <p class="text-sm text-muted-foreground">The number of new users in the last 30 days.</p> -->
           </div>
           <div class="p-6">
             <div class="text-4xl font-bold">234</div>
@@ -193,7 +163,7 @@
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6 pb-4">
             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Total Products</h3>
-            <p class="text-sm text-muted-foreground">The total number of products in the catalog.</p>
+            <!-- <p class="text-sm text-muted-foreground">The total number of products in the catalog.</p> -->
           </div>
           <div class="p-6">
             <div class="text-4xl font-bold">567</div>
@@ -201,8 +171,8 @@
         </div>
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6 pb-4">
-            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Pending Orders</h3>
-            <p class="text-sm text-muted-foreground">The number of orders waiting to be fulfilled.</p>
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Calls </h3>
+            <!-- <p class="text-sm text-muted-foreground">The number of orders waiting to be fulfilled.</p> -->
           </div>
           <div class="p-6">
             <div class="text-4xl font-bold">45</div>
@@ -212,8 +182,8 @@
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6 pb-4">
-            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Sales Overview</h3>
-            <p class="text-sm text-muted-foreground">A chart showing sales trends over time.</p>
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Server Overview</h3>
+            <!-- <p class="text-sm text-muted-foreground">A chart showing sales trends over time.</p> -->
           </div>
           <div class="p-6">
             <div class="w-full aspect-[4/3]">

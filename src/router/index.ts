@@ -15,7 +15,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('@/views/template1/dashboard.vue')
+      component: () => import('@/views/template1/dashboard1.vue')
     },
     {
       path: '/dashboard2',
@@ -74,20 +74,20 @@ const router = createRouter({
       component: () => import('@/views/template2/dash2.vue')
     },
     {
-      path: '/dashboard5',
-      name: 'dashboard5',
+      path: '/dashboard9',
+      name: 'dashboard9',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('@/views/template1/dashboard5.vue')
+      component: () => import('@/views/template2/dash3.vue')
     },
     {
-      path: '/dashboard5',
-      name: 'dashboard5',
+      path: '/forms',
+      name: 'forms',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('@/views/template1/dashboard5.vue')
+      component: () => import('@/views/template1/forms.vue')
     },
     {
       path: '/dashboard5',
